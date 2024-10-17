@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h4{
+    color: #FF5A5F;
+}
+
+.navbar img{
+    margin-left: 30px;
+}
+
+main img {
+    width: 395px;
+    height: 232px;
+    margin-left: 77px;
+    margin-top: 20px;
+}
+
+main h1, p {
+    margin-left: 36px;
+}
+
+main p {
+    width: 320px;
+    height: 56px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.card {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;    
+    color: #918E9B;
+    width: 175px;
+}
+
+.card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card-status {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    color: #FE395C;
+    font-size: 1.5rem;
+}
+
+.nota{
+    color: #222222;
+    font-size: 1.1rem;
+}
+
+.cinza {
+    color: #918E9B;
+    font-size: 1.1rem;
+}
+
+.negrito{
+    font-weight: bold;
+    color: #222233;
+    font-size: 1.1rem;
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
